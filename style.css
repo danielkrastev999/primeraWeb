@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+* {
+    /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: lucida bright , sans-serif;
+    background-color: #f5f8f9 ;
+}
+
+
+/*HEADER*/
+
+header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #2098D1;
+}
+
+header img {
+    width: 100%;
+
+    object-fit: cover; 
+}
+
+
+h1 {
+    padding: 0%;
+    font-size: 4em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/*NAV*/
+
+.navegador {
+    position: relative;
+    width: auto;
+    display: flex;
+    background-color: #AED6F1;
+    list-style: none;
+    padding: 0;
+}
+
+.navegador > li {
+    position: static;
+    width: 100%;   
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    text-align: center;
+}
+
+
+nav {
+    width: 100%;
+    position: relative;
+    top: 9.2%;
+}
+
+/*ENLACES*/
+
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    
+    padding: 0.5em 1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Ubuntu', sans-serif;
+    width: auto;
+    padding: 1em 3em 1em 3em;
+    text-align: center;
+}
+
+h3, .pfoot {
+    font-family: 'Ubuntu', sans-serif;
+    width: auto;
+    padding: 1em 3em 1em 3em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-family: 'Ubuntu',sans-serif;
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+}
+
+.parrafo {
+    width: 70%;
+    margin: auto;
+    padding: 0 0 3em 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    
+}
+
+/*LISTA PROFESIONAL CAPAZ DE:*/
+
+
+.list {
+    font-family: 'Ubuntu',sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+.list > li {
+    margin: 1em 0;
+}
+
+
+.list > li a {
+    color: #7FB3D5; 
+    text-decoration: underline; 
+}
+
+.listaPrin {
+    max-width: 20em;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    top: 100%;
+    border-top: 2px solid black;
+    position: relative;
+    width: 100%;
+    height: 11.3em;
+    margin: 4.8em 0 0 0;
+    background-color: #7FB3D5;
+    text-align: center; 
+}
+
+.divfooter {
+    display: inline-block; 
+}
+
+.divfooter a {
+    display: inline-block; 
+    margin: 0 10px; 
+    text-decoration: none;
+    color: black;
+    background-color: #D6EAF8 ;
+}
+
+
+
+
+/*TABLA HORARIO*/
+
+table {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 800px; 
+    margin:1em auto 6.9em auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+
+
+
+/*COLORES DE LOS HORARIOS */
+
+.supHorario {
+    background-color: #E5E7E9  ;
+}
+
+.colorCliente {
+    background-color: #F8C471 ;
+}
+
+.colorInterfaces {
+    background-color: #48C9B0 ;
+}
+
+.colorIngles {
+    background-color: #AED6F1 ; 
+}
+
+.colorDespliegue {
+    background-color: #ABEBC6;
+}
+
+.colorServidor {
+    background-color: #D7BDE2;
+}
+
+.colorEmpresa{
+    background-color: #FCF3CF ;
+}
+
+/*FIN COLORES HORARIOS*/
+
+
+/*------------------------------------------------------------*/
+
+/*FORMULARIO*/
+
+.formRoot{
+    width: 100%;
+    height: 36.3em;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-left: 0;
+    }
+
+    h5 {
+        margin-left: 0;
+    }
+
+    .navegador {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    nav {
+        top: 0;
+    }
+
+    table {
+        font-size: 0.75em;
+        margin-top: 1em; /* Agregar margen superior para evitar superposición */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* BUSCADO EN INTERNET */
+
+
+.hvr-sweep-to-right {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+  }
+  .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+
+/* Fade */
+.hvr-fade {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: #2098D1;
+    color: white;
+  }
+
+
+
