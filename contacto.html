@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio 1</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>DESARROLLO DE APLICACIONES WEB</h1>
-        <nav>
-            <ul class="navegador" >
-                <li><a class="hvr-fade" href="index.html">Inicio</a></li>
-                <li><a class="hvr-fade"  href="daw.html">DAW</a></li>
-                <li><a class="hvr-fade" href="somos.html">Somos</a></li>
-                <li><a class="hvr-fade" href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      <h1>DESARROLLO DE APLICACIONES WEB</h1>
+      <nav>
+        <ul class="navegador">
+          <li><a class="hvr-fade" href="index.html">Inicio</a></li>
+          <li><a class="hvr-fade" href="daw.html">DAW</a></li>
+          <li><a class="hvr-fade" href="somos.html">Somos</a></li>
+          <li><a class="hvr-fade" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
+    <div class="formRoot">
+      <section class="secsub">
+        <form id="form" class="topBefore">
+          <input type="text" placeholder="Nombre" required />
+          <input type="email" placeholder="E-mail" required />
+          <input type="date" placeholder="DD/MM/YYYY" required />
 
-<div class="formRoot">
-    <form action="resultados.html" method="get">
-        <div>
-            <label for="nombreusuario">Nombre de usuario</label>
-            <input type="text" name="nombreusuario" id="nombreusuario"  required>
-        </div>
-        <div>
-            <label for="password">Contraseña: </label>
-            <input type="password" name="password" id="password"  required>
-        </div>
-        <div>
-            <label for="nacimiento">Cual es tu fecha de nacimiento?</label>
-            <input type="date" name="nacimiento" id="nacimiento" required>
-        </div>
-        <button type="reset">Reset</button>
-        <button type="submit">Enviar</button>
-    </form>
-
-</div>
-
+          <select name="nacimiento">
+            <option>Localidad</option>S
+            <option>Madrid</option>
+            <option>Barcelona</option>
+            <option>Resto de opciones</option>
+          </select>
+          <textarea type="text" placeholder="Observaciones"></textarea>
+          <input id="submit" type="submit" value="ENVIAR" />
+        </form>
+      </section>
+    </div>
 
     <footer>
-        <h3>Copyright - Todos los derechos reservados</h3>
-        <p class="pfoot">Siguenos en nuestras <b>redes</b></p>
-    <div class="divfooter">
+      <h3>Copyright - Todos los derechos reservados</h3>
+      <p class="pfoot">Siguenos en nuestras <b>redes</b></p>
+      <div class="divfooter">
         <a class="hvr-sweep-to-right" href="https:google.com">Instagram</a>
         <a class="hvr-sweep-to-right" href="https:google.com">Twitter</a>
         <a class="hvr-sweep-to-right" href="https:google.com">Youtube</a>
-    </div>
+      </div>
     </footer>
-</body>
+  </body>
+</html>
