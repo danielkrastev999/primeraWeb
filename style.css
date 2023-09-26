@@ -4,7 +4,7 @@
 
 
 * {
-   /* border: 1px solid red;*/
+    /*border: 1px solid red;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -401,6 +401,13 @@ ul, li{
 
     .asignaturasPrimero, .asignaturasSegundo {
        width: 100%;
+    }
+    footer{
+        height: auto;
+    }
+
+    .divfooter{
+        margin-bottom: .4em;
     }
 
 }
